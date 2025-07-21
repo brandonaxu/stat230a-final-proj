@@ -4,6 +4,9 @@ This project explores the use of behavioral and demographic features to predict 
 
 Notably, our model outperformed a recent approach by Sun et al. (2024) published in Frontiers in Big Data, which proposed BMI-obfuscated behavioral models for obesity prediction. While their best-performing model achieved around 80.7% accuracy, our binary classification model using elastic-net regularized logistic regression achieved a significantly higher 85.6% accuracy—an almost 5% improvement in predictive performance.
 
+## How to Run: 
+First run the `data_preprocessing.ipynb` notebook to retrieve all of the datasets needed for this project. Then, run `data_analysis.ipynb` and `data_visualization.ipynb` to look at training process and visualization results
+
 ## Objective
 To build accurate classification models that predict whether an individual is obese (binary classification), and optionally which specific weight category they belong to (multiclass classification), using non-BMI behavioral and demographic data.
 
